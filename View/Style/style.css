@@ -1,0 +1,51 @@
+.body{
+    padding: 0;
+    margin: 0 auto;
+    width: 390px;
+    height: 90vh;
+    background-image: url(/Images/wet-sphere-reflective-water-abstract-beauty-generated-by-ai.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 45px;
+
+}
+
+.formulaire {
+    margin: 0 auto;
+    width: 370px;
+    height: 380px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1); 
+    /* background: rgba(217, 217, 217, 0.40); */
+    padding-top: 100px;
+    text-align: center;
+    display: block;   
+}
+
+.form1{
+    margin-top: 20px;
+}
+
+input{
+    width: 320px;
+    height: 40px;  
+    border-radius: 10px;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background: #461800;
+    margin-top: 30px;
+    font-size: 15px;
+    color:white;
+
+}
+
+.checkbox{
+    display: flex;
+    justify-content: start;
+}
