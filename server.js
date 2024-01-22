@@ -79,7 +79,7 @@ const db = mysql.createConnection({
 const port = process.env.PORT || 3002 //création du port
 
 app.get ('/',(req, res)=>{
-    res.send ('Félicitation');
+    res.send ('validé');
 });
 
 
