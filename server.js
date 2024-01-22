@@ -26,13 +26,13 @@ const db = mysql.createConnection({
   app.use(bodyParser.urlencoded({ extended: false}))
 
   // Définir des routes pour récupérer des données de la base de données
-  app.get('/api/apprenants/', (req, res) => {
+  app.get('/api/apprenants', (req, res) => {
     db.query('SELECT * FROM apprenants', (err, rows, field) => {
       if (err) {
         console.error('Erreur de requête :', err);
         return res.status(500).send({ erreur: 'Erreur lors de la requête à la base de données' });
       }
-       res.json(rows);
+       res.send(rows);
       
     });
   });
