@@ -1,3 +1,9 @@
+*{
+   margin: 0;
+   padding: 0;
+    box-sizing: border-box;
+}
+
 .body{
     padding: 0;
     margin: 0 auto;
@@ -48,4 +54,35 @@ button {
 .checkbox{
     display: flex;
     justify-content: start;
+}
+
+h1{
+    color: #fff;
+}
+
+td img {
+    border-radius: 50px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+.bodyT{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table{
+    width: 82vw;
+    height: 90vh;
+    background-color: rgba(128, 128, 128, 0.253);
+    backdrop-filter: blur(7px);
+    box-shadow: 3px 1px #0005;
+    border-radius: 8px;
+
+}
+
+.table_header{
+    background-color: #fff4;
 }
